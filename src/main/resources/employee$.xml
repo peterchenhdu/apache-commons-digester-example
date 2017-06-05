@@ -1,0 +1,9 @@
+<employee>
+	<firstName>Pi</firstName>
+	<lastName>Chen</lastName>
+	<address>
+		<type>${city}</type>
+		<city>HangZhou</city>
+		<state>2</state>
+	</address>
+</employee>
