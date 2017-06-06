@@ -11,16 +11,19 @@ import apache.commons.digester3.example.rulesbinder.module.EmployeeModule;
 import apache.commons.digester3.example.rulesbinder.pojo.Address;
 import apache.commons.digester3.example.rulesbinder.pojo.Employee;
 import apache.commons.digester3.example.simpletest.ExampleMain;
-
+/**
+ * 
+ * 
+ * @author    http://www.cnblogs.com/chenpi/
+ * @version   2017年6月5日
+ */
 public class DigesterLoaderMain {
 
 	private static DigesterLoader dl = DigesterLoader.newLoader(new EmployeeModule())
 			.setNamespaceAware(false);
 	public static void main(String[] args) {
-
 		try {
-
-
+		    
 			Digester digester = dl.newDigester();
 			Employee employee = digester.parse(ExampleMain.class.getClassLoader().getResourceAsStream("employee.xml"));
 

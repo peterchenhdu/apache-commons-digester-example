@@ -1,6 +1,11 @@
 
 package apache.commons.digester3.example.rulesbinder.pojo;
-
+/**
+ * 
+ * 
+ * @author    http://www.cnblogs.com/chenpi/
+ * @version   2017年6月5日
+ */
 public class Address {
 
 	private String type;

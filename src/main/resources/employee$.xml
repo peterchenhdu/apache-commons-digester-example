@@ -2,7 +2,7 @@
 	<firstName>Pi</firstName>
 	<lastName>Chen</lastName>
 	<address>
-		<type>${city}</type>
+		<type>${type}</type>
 		<city>HangZhou</city>
 		<state>2</state>
 	</address>

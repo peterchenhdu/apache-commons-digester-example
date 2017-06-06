@@ -4,7 +4,12 @@ import org.apache.commons.digester3.binder.AbstractRulesModule;
 
 import apache.commons.digester3.example.rulesbinder.pojo.Address;
 import apache.commons.digester3.example.rulesbinder.pojo.Employee;
-
+/**
+ * 
+ * 
+ * @author    http://www.cnblogs.com/chenpi/
+ * @version   2017年6月5日
+ */
 public class EmployeeModule extends AbstractRulesModule {
 
 	@Override

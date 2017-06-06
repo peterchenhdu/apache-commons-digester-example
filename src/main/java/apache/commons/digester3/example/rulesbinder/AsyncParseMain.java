@@ -11,15 +11,17 @@ import apache.commons.digester3.example.rulesbinder.module.EmployeeModule;
 import apache.commons.digester3.example.rulesbinder.pojo.Address;
 import apache.commons.digester3.example.rulesbinder.pojo.Employee;
 import apache.commons.digester3.example.simpletest.ExampleMain;
-
+/**
+ * 
+ * @author    http://www.cnblogs.com/chenpi/
+ * @version   2017年6月5日
+ */
 public class AsyncParseMain {
 	private static DigesterLoader dl = DigesterLoader.newLoader(new EmployeeModule())
 			.setNamespaceAware(false).setExecutorService(Executors.newSingleThreadExecutor());
 	public static void main(String[] args) {
-
 		try {
-
-
+		    
 			Digester digester = dl.newDigester();
 			Future<Employee> future = digester.asyncParse(ExampleMain.class.getClassLoader().getResourceAsStream("employee.xml"));
 

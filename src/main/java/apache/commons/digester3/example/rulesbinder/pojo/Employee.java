@@ -3,7 +3,12 @@ package apache.commons.digester3.example.rulesbinder.pojo;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * 
+ * 
+ * @author    http://www.cnblogs.com/chenpi/
+ * @version   2017年6月5日
+ */
 public class Employee {
 
 	private String firstName;
