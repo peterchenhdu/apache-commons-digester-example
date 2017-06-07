@@ -5,14 +5,9 @@ import java.io.IOException;
 
 import org.apache.commons.digester3.Digester;
 import org.apache.commons.digester3.ObjectCreateRule;
-import org.apache.commons.digester3.binder.DigesterLoader;
 import org.xml.sax.SAXException;
 
-import apache.commons.digester3.example.rulesbinder.module.EmployeeModule;
-import apache.commons.digester3.example.rulesbinder.pojo.Address;
-import apache.commons.digester3.example.rulesbinder.pojo.Employee;
 import apache.commons.digester3.example.rulesbinder.pojo.MyBean;
-import apache.commons.digester3.example.simpletest.ExampleMain;
 
 /**
  * 
